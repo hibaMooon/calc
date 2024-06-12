@@ -1,0 +1,76 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    position: relative;
+    min-height: 100vh;
+    background-color: #F7F8F3;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav-link.active {
+    background-color: #dfdfdf;
+}
+
+a.navbar-brand {
+    width: 150px;
+    mix-blend-mode: multiply;
+}
+
+.store .select {
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    cursor: pointer;
+}
+
+.store .calc {
+    background-color: #dfdfdf;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    border: 0;
+}
+
+.store .calc:hover {
+    background-color: #00d8b4;
+    color: white;
+}
+
+.following a {
+    font-size: 12px;
+    height: fit-content;
+}
+
+.following a img {
+    width: 80px;
+    height: 100%;
+}
+
+footer {
+    background-color: #00d8b4;
+    bottom: 0;
+    position: absolute;
+}
+
+.notes_and_tips ul li {
+    font-size: 20px;
+}
+
+@media (max-width:778px) {
+    .notes_and_tips ul li {
+        font-size: 16px;
+    }
+    .following a img {
+    width: 40px;
+    }
+}
